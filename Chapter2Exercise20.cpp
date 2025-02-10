@@ -6,7 +6,6 @@ report approximately how many gallons of paint will be needed to paint two coats
 fence that is 6 feet high and 100 feet long*/
 
 #include <iostream>
-#include <math.h>
 using namespace std;
 int main()
 {
