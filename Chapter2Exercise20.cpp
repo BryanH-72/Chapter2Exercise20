@@ -10,8 +10,9 @@ using namespace std;
 int main()
 {
     double height, width, areaPerGal, total;
-    height = 6;
-    width = 100;
+    cout << "What is the height of your fence? ";
+    cin >> height;
+    cout << "What is the width of your fense? ";
     areaPerGal = 340;
     total = round((height * width / areaPerGal)*100.0)/100.0;
     std::cout << "You will need " << round(total) << " gallons (Rounded from " << total <<  " gallons) of paint to paint this fence." << endl;
